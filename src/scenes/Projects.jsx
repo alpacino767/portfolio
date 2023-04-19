@@ -23,16 +23,12 @@ const Project = ({ title, subtitle,link }) => {
         <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyles}>
                 <p className='text-2xl font-playfair'>{title}</p>
-                <a 
-                //  target="_blank" href='https://tonynatours.netlify.app/ '
-                 >
                 <p className='mt-7 cursor-pointer' >
                   {subtitle}
                 </p>
-                <a target="_blank"  href={link}> 
+                <a target="_blank" rel="noreferrer" href={link}> 
                 click to view 
                {/* {link}  */}
-                </a>
                 </a>
             </div>
             <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
