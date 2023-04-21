@@ -64,7 +64,6 @@ const Projects = () => {
                 </div>
 
                 <p className='mt-10 mb-10'>
-                    Nulla porta lorem libero, ac luctus nibh efficitur sed. Vestibulum iaculisleo. Mauri a nisi non auctor. Etiam ac nunc s in tincidunt risus, in vestibulum nulla. Praesent at imperdiet lacus. Nam sceleri
                 </p>
             </motion.div>
 
@@ -83,10 +82,10 @@ const Projects = () => {
                         CREATIVE USER INTERFACES
                     </div>
                     <Project title="Project 1" link="https://jobify-lgpn.onrender.com" />
-                    <Project title="Project 2" />
+                    <Project title="Project 2" link="https://github.com/alpacino767/port1" />
 
                     {/* row 2 */}
-                    <Project title="Project 3"  />
+                    <Project title="Project 3"  link="https://github.com/alpacino767/mern-app" />
                     <Project title="Project 4" link="http://bitly.ws/BUrj" />
                     <Project  title="Project 5"  link="http://bitly.ws/BUfA" ></Project> 
                    
